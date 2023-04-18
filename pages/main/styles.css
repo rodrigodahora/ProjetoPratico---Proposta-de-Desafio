@@ -8,7 +8,6 @@ header {
 
     height: 60px;
 
-
     font-family: 'Rokkitt';
     font-style: bold;
     font-size: 18px;
@@ -166,7 +165,7 @@ ul {
     transition: all 0.7s;
 }
 
-h2 {
+.modal h2 {
     margin-bottom: 20px;
 }
 
