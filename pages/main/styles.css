@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+
+    font-family: 'Rokkitt';
+    font-style: bold;
+    font-size: 18px;
+
+    background-color: #134563;
+    color: #ffffff;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+header h2 {
+    margin-left: 580px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+}
+
+.adicionar {
+    width: 237px;
+    height: 51px;
+
+    margin-top: 80px;
+    margin-left: 206px;
+    border-radius: 8px;
+    border-style: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    background-color: #04C45C;
+}
+
+.adicionar:hover {
+    background-color: #01a54e;
+    cursor: pointer;
+}
+
+.contains {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: center;
+
+    margin-top: 40px;
+
+    width: 956px;
+    height: 386px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 300px;
+    padding-left: 10px;
+
+    width: 956px;
+    height: 46px;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 260px;
+    padding-left: 10px;
+
+    width: 956px;
+    height: 340px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    height: 340px;
+}
+
+.telefone {
+    margin-left: -100px;
+}
+
+.excluir {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+
+    margin-right: -230px;
+    height: 340px;
+    width: 30px;
+}
+
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 100px;
+    z-index: 3;
+    position: fixed;
+    border-radius: 8px;
+    transition: all 0.7s;
+
+    width: 400px;
+    height: 500px;
+
+    background-color: #ffffff;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+
+    transition: all 0.7s;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 340px;
+    height: 50px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sair {
+    margin-top: -450px;
+    margin-right: -350px;
+    cursor: pointer;
+}
+
+.modal:focus {
+    visibility: visible;
+    opacity: 1;
+}
+
+.adc-button-modal {
+    width: 340px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    background: #04C45C;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.adc-button-modal:hover {
+    background-color: #6704c4;
+}
+
+.limp-button-modal {
+    width: 340px;
+    height: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    background: #d30326;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.limp-button-modal:hover {
+    background-color: #0467c4;
+}
