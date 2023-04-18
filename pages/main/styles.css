@@ -27,6 +27,7 @@ header h2 {
 body {
     display: flex;
     flex-direction: column;
+
 }
 
 form {
@@ -226,4 +227,88 @@ ul {
 
 .limp-button-modal:hover {
     background-color: #0467c4;
+}
+
+.modal-lixeira {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+
+    width: 440px;
+    height: 280px;
+    margin-top: 250px;
+    border-radius: 8px;
+
+    transition: all 0.7s;
+    background-color: #ffffff;
+}
+
+.excluir button {
+    border-style: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.modal-lixeira:focus {
+    visibility: visible;
+    opacity: 1;
+}
+
+.btn-excluir {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    background-color: #04C45C;
+
+}
+
+.btn-excluir:hover {
+    background-color: #04c4ba;
+}
+
+
+.btn-cancelar {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    background-color: #c4042e;
+}
+
+.btn-cancelar:hover {
+    background-color: #c40454;
+}
+
+.modal-lixeira h4 {
+    margin-top: 20px;
+}
+
+.sair-modal img {
+    margin-left: 380px;
 }
